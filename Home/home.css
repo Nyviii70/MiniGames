@@ -1,0 +1,49 @@
+* {
+    font-family: system-ui;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(246 245 245);
+}
+
+.title_container {
+    font-family: system-ui;
+    font-size: xx-large;
+}
+
+.explain_container {
+    font-family: system-ui;
+    font-size: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links_container {
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 500;
+    color: rgb(131, 63, 196);
+}
